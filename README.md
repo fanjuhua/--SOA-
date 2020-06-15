@@ -38,7 +38,7 @@ $d_{i,alt}=g_{best}-x_i(t)$
 
 其中$\alpha_{i}$为个体$i$的步长，参数$\delta_{i}$表示搜索半径，$\alpha_i \in [0,3\delta_i]$，个体的位置越优，步长越短，
 
-$\delta_i=\omega·abs(x_{best}-x_{avg})$，
+$\delta_i=\omega·abs(x_{best}-x_{avg})$，$x_{best}$为当前所有个体的最优位置，$x_{avg}$为所有个体位置的几何平均值
 
 个体$i$在维度$j$的搜索步长$\alpha_{ij}$的计算方式为：
 
