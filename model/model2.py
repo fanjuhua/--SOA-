@@ -1,5 +1,5 @@
 import numpy as np
-from model_test.model import Model
+from model.model import Model
 from scipy import integrate
 
 eps = 1e-20

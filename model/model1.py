@@ -1,5 +1,5 @@
 import numpy as np
-from model_test.model import Model
+from model.model import Model
 from scipy import integrate
 
 # P_pmk: 轨道桥在kh时刻进行预防性维修的概率
